@@ -1,0 +1,10 @@
+[project]
+name = "ILBudget-mcp"
+version = "0.1.0"
+description = "MCP Server for accessing Israeli budget data through the OpenBudget API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.1.1",
+    "requests>=2.32.3"
+]
