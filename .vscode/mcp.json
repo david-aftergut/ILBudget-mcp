@@ -1,0 +1,18 @@
+{
+    "servers": {
+      "ILBudget": {
+        "type": "stdio",
+        "command": "uv",
+              "args": [
+                  "run",
+                  "--with",
+                  "fastmcp",
+                  "--with",
+                  "requests",
+                  "fastmcp",
+                  "run",
+                  "{YOUR-LOCAL-PATH}\\ILBudgetServer.py"
+              ]
+      }
+    }
+  }

@@ -41,12 +41,19 @@ uv lock
 
 Install and run the server using one of these methods:
 
-1. For use with [Claude AI Assistant](https://claude.ai) or [Visual Studio Code (using Copilot)](https://code.visualstudio.com/download):
+1. For use with [Visual Studio Code (using Copilot)](https://code.visualstudio.com/download):</br>
+Go to [vscode/mcp.json](/.vscode/mcp.json) and replace {YOUR-LOCAL-PATH} with the path you cloned the repo.</br>
+VSCode should discover you server automatically.</br>
+If that doesn't work, make sure you enabled MCP & MCP.Discovery in [vscode://settings/mcp](vscode://settings/mcp).</br>
+Make sure to enable agent mode in your vscode copilot.</br>
+![Agent Mode Enabled](AgentModeEnabled.png)
+
+2. For use with [Claude AI Assistant](https://claude.ai):
 ```bash
 fastmcp install ILBudgetServer.py
 ```
 
-2. For testing with MCP Inspector (Learn how at [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)):
+3. For testing with MCP Inspector (Learn how at [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)):
 ```bash
 fastmcp dev ILBudgetServer.py
 ```

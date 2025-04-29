@@ -160,7 +160,6 @@ async def search(ctx: Context, searchTerm: str, searchType: str = "supports"):
     Args:
         searchTerm (str): The text to search for in the database.
         searchType (str): The type of data to search. Can be one of:
-            - 'budget': Search within budget items
             - 'entities': Search government entities
             - 'national-budget-changes': Search budget modifications
             - 'supports': Search government grants and support payments
